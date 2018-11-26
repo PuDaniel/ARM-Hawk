@@ -1,1 +1,1 @@
-![ARM-Hawk Logo](/ARM-Hawk Logo.png)
+![ARM-Hawk Logo](/ARM_Hawk_Logo.png)
