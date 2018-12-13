@@ -1,0 +1,52 @@
+Stock material: Aluminium Square profile 16x16x26mm
+Vertically mounted in vise.
+Check clearance for 16mm milling depth.
+Zero (X,Y) at center point of square.
+
+1: 	tip_bottom
+	3mm cutter (with min 16mm teeth length)
+	Z=0 at top face of stock
+
+2:	tip_predrill
+	3mm countersink
+	Z=0 at top face of stock (tip of tool)
+
+3:	tip_drill
+	2mm drill
+	Z=0.5 at top face of stock (tip of tool)
+
+Cut raw end of workpiece to a total length of 14.5mm.
+Turn workpiece around (180deg, holes downwards) and mount in vise.
+Zero (X,Y) at axis of previously milled cylinder.
+
+4:	tip_top
+	3mm finger cutter
+	Z=0.5 (bottom tip of cutter) at top face of cylinder
+
+5:	3mm countersink
+	Z=0 at topmost point of sphere (tip of tool)
+	sink 0.5mm deep at (X,Y)=(0,0) (S5000 F30)
+
+6:	1mm drill
+	Z=0.3 at topmost point of sphere (tip of tool)
+	drill 3mm deep at (X,Y)=(0,0) (S10000 F10)
+
+clamp down 1.5mm aluminium sheet with min 80x30mm (X,Y)
+Zero (X,Y) min 5mm from left/lower border
+	
+7:	angle_base
+	3mm cutter
+	Z=0 at top of sheet metal
+
+Mount tip with help of angle base at the right angle (45deg) into vise.
+Zero Y at cylinder axis; zero X -6mm offset from farthest point of sphere.
+
+8:	3mm countersink
+	Z=0 at topmost point of sphere (tip of tool)
+	sink 0.5mm deep at (X,Y)=(0,0) (S5000 F30)
+
+9:	1mm drill
+	Z=0.3 at topmost point of sphere (tip of tool)
+	drill 1.3mm deep at (X,Y)=(0,0) (S10000 F10)
+
+Rotate cylinder axis 90deg and repeat steps 8-9 3 times (four holes).

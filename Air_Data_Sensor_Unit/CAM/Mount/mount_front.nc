@@ -1,0 +1,48 @@
+; ==== mount_front ====
+; 2.38mm (3/32in) Carbide Cutter
+; Stock material: 110x30x3mm GFK
+; Zero (X,Y) at center; Zero Z at top of stock (tip of tool)
+;=============
+G90 G40 G17 G21
+M6 T1
+S20000 M3
+F30 G94
+;=============
+G00 X-26.69 Y12.19 Z3
+F15
+G01 Z-4
+F30
+G01 X26.69
+G01 Y9.19
+G01 X49.19
+G01 Y6.69
+G01 X52.19
+G01 Y-6.69
+G01 X49.19
+G01 Y-9.19
+G01 X26.69
+G01 Y-12.19
+G01 X-26.69
+G01 Y-9.19
+G01 X-49.19
+G01 Y-6.69
+G01 X-52.19
+G01 Y6.69
+G01 X-49.19
+G01 Y9.19
+G01 X-26.69
+G01 Y12.19
+G01 Z3
+G00 X-43.81 Y3.81
+F15
+G01 Z-4
+F30
+G01 X43.81
+G01 Y-3.81
+G01 X-43.81
+G01 Y3.81
+G01 Z3
+;=============
+M5
+G0 Z20
+M30

@@ -1,0 +1,50 @@
+Stock material: Aluminium Square profile 16x16x34mm
+Vertically mounted in vise.
+Check clearance for 16mm milling depth.
+Zero (X,Y) at centre point of square.
+
+1: 	base_bottom
+	3mm cutter (with min 16mm teeth length)
+	Z=0 at top face of stock
+
+2:	base_bottom_predrill
+	3mm countersink
+	Z=0 at top face of stock (tip of tool)
+
+3:	base_bottom_drill
+	2mm drill
+	Z=0.5 at top face of stock (tip of tool)
+
+Turn workpiece around (180deg, holes downwards) and mount in vise 
+with round side pointing in Y+ direction.
+Check clearance for 20mm milling depth.
+Zero (X,Y) at centre point of square.
+
+4:	base_top
+	3mm cutter (with min 16mm teeth length)
+	Z=0 at top face of stock
+
+5:	base_top_predrill
+	3mm countersink
+	Z=0 at top face of stock (tip of tool)
+
+6:	base_top_drill
+	2mm drill
+	Z=0.5 at top face of stock (tip of tool)
+
+Remove workpiece and mount in vise with big flat side up and 
+cylindrical part pointing towards X+. 
+(Previous Y- is now Z+ and previous Z+ is now X+)
+Zero (X,Y) at centre of left edge (X-).
+
+7:	base_side_predrill
+	3mm countersink
+	Z=0 at top face of stock (tip of tool)
+
+8:	base_side_drill_2m0
+	2mm drill
+	Z=0.5 at top face of stock (tip of tool)
+	
+9:	base_side_drill_2m4
+	2.4mm drill
+	Z=0.7 at top face of stock (tip of tool)
