@@ -9,3 +9,6 @@ This repository includes the following parts of the project:
 - [Electronics](Electronics) This directory contains plans for some electronic circuits (RPM sensor, servo switch)
 - [Flight_Computer](Flight_Computer) This directory contains the C++ code for the flight software
 - [IMU](IMU) This directory contains information for building and calibrating the custom developed Inertial Measurement Unit, as well as a model of the state estimation algorithm
+
+Visit the project's YouTube channel to see some videos of the sytsem in action:
+[https://m.youtube.com/channel/UCTHfZXQw1zonnjaXaEWrNzA](https://m.youtube.com/channel/UCTHfZXQw1zonnjaXaEWrNzA)
