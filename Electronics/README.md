@@ -7,7 +7,7 @@ This directory contains all custom developed circuits used in the ARM-Hawk proje
 This sensor is connected to two of the three BLDC motor's phases. It outputs a square wave with a frequency equal to that of the electric field's frequency.
 
 - [Brushless_RPM_sensor/CAM](Brushless_RPM_sensor/CAM) contains g-code files for milling the PCB
-- [Brushless_RPM_sensor/KiCad](Brushless_RPM_sensor/KiCAD) contains the KiCAD project, as well as the PCB's gerber files
+- [Brushless_RPM_sensor/KiCad](Brushless_RPM_sensor/KiCad) contains the KiCAD project, as well as the PCB's gerber files
 
 ![Brushless RPM sensor](Brushless_RPM_sensor/RPM_Sensor.png)
 
