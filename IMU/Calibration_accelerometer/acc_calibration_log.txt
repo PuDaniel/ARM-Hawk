@@ -1,0 +1,24 @@
+ 
+Calibration form: f = C*(f_acc - f_0)
+ 
+Local magnitude of gravity vector [m/s^2]=
+   9.8082e+00
+
+ 
+Calibration matrix C=
+   9.8459e-01   8.0660e-04  -2.3062e-02
+  -3.3592e-03   1.0027e+00   2.4024e-03
+   4.9667e-03  -3.3054e-03   1.0109e+00
+
+Acceleration bias vector f_0 [m/s^2]=
+  -7.6722e-02
+  -8.5341e-02
+  -7.2458e-02
+
+ 
+Error before calibration [%]=
+   2.0403e+00
+
+Error after calibration [%]=
+   5.8813e-01
+

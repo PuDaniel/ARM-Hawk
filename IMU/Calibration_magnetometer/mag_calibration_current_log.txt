@@ -1,0 +1,16 @@
+ 
+Calibration form: B_M = S * M * B_E + B_0 + I*B_I
+                  B_E = C * (B_M - B_0 - I*B_I)
+ 
+Current dependent hard-iron offset vector B_I [T/A]=
+   8.2807e-09
+   1.2813e-08
+  -2.3106e-08
+
+ 
+Error before calibration [%]=
+   4.0295e-01
+
+Error before calibration [%]=
+   1.6261e-01
+

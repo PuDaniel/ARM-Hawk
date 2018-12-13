@@ -1,0 +1,25 @@
+ 
+Calibration form: omega_v = C*(omega_gyro - omega_0) - G*f
+ 
+Calibration matrix C=
+   1.0313e+00  -1.1339e-02  -7.2564e-03
+  -7.8347e-03   9.8760e-01   7.4846e-03
+   1.9856e-03   6.5120e-04   1.0242e+00
+
+Angular rate bias vector omega_0 [rad/s]=
+   6.9040e-02
+  -4.8245e-02
+   4.1435e-03
+
+G-force coupling matrix G [rad*s/m]=
+   1.0539e-03            0            0
+            0   9.4485e-04            0
+            0            0   1.2274e-03
+
+ 
+Error before calibration [%]=
+   3.2692e+00
+
+Error after calibration [%]=
+   1.0893e+00
+
