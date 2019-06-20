@@ -1,6 +1,6 @@
 ![ARM-Hawk Logo](/ARM_Hawk_Logo.png)
 
-The ARM-Hawk project consists of a custom designed radio controlled airplane equiped with a scratch built flight computer running custom software. The goal of the project is to develop a system to greatly enhance the flight characteristics of the airplane, as well as to protect its flight envelope.
+The ARM-Hawk project consists of a custom designed radio controlled airplane equipped with a scratch built flight computer running custom software. The goal of the project is to develop a system to greatly enhance the flight characteristics of the airplane, as well as to protect its flight envelope.
 This repository includes the following parts of the project:
 
 - [ARM_Hawk.pdf](ARM_Hawk.pdf) This file contains a complete description of the project, including the derivation of a flight model and simulation framework, sensor calibration and state estimation algorithms, and the control laws for lateral stability augmentation and stall protection
